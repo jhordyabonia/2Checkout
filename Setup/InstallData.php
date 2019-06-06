@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace  VexSoluciones\Checkout2\Setup;
+namespace  AgSoftware\Checkout2\Setup;
 
 use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;

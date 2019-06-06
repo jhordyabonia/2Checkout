@@ -7,7 +7,7 @@
 
 // @codingStandardsIgnoreFile
 
-namespace  VexSoluciones\Checkout2\Setup;
+namespace  AgSoftware\Checkout2\Setup;
 
 use Magento\Framework\Setup\SchemaSetupInterface;
 use Magento\Framework\Setup\InstallSchemaInterface;
@@ -23,9 +23,9 @@ class InstallSchema implements InstallSchemaInterface
         SchemaSetupInterface $setup,
         ModuleContextInterface $context
     ) {
-        $table_vexsoluciones_checkout2 = $setup->getConnection()->newTable($setup->getTable('vexsoluciones_checkout2'));
+        $table_agsoftware_checkout2 = $setup->getConnection()->newTable($setup->getTable('agsoftware_checkout2'));
 
-        $table_vexsoluciones_checkout2->addColumn(
+        $table_agsoftware_checkout2->addColumn(
             'checkout2_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
@@ -33,7 +33,7 @@ class InstallSchema implements InstallSchemaInterface
             'Entity ID'
         );
 
-        $table_vexsoluciones_checkout2->addColumn(
+        $table_agsoftware_checkout2->addColumn(
             'increment_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
             null,
@@ -41,7 +41,7 @@ class InstallSchema implements InstallSchemaInterface
             'increment_id'
         );
 
-        $table_vexsoluciones_checkout2->addColumn(
+        $table_agsoftware_checkout2->addColumn(
             'form_data',
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
             null,
@@ -49,7 +49,7 @@ class InstallSchema implements InstallSchemaInterface
             'Form Data'
         );
 
-        $table_vexsoluciones_checkout2->addColumn(
+        $table_agsoftware_checkout2->addColumn(
             'response',
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
             null,
@@ -57,6 +57,6 @@ class InstallSchema implements InstallSchemaInterface
             'response'
         );
 
-        $setup->getConnection()->createTable($table_vexsoluciones_checkout2);
+        $setup->getConnection()->createTable($table_agsoftware_checkout2);
     }
 }

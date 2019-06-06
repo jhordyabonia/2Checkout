@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
 	<event name="checkout_onepage_controller_success_action">
-		<observer instance="VexSoluciones\Checkout2\Observer\Frontend\Checkout\OnepageControllerSuccessAction" name="vexsoluciones_checkout2_observer_frontend_checkout_onepagecontrollersuccessaction_checkout_onepage_controller_success_action"/>
+		<observer instance="AgSoftware\Checkout2\Observer\Frontend\Checkout\OnepageControllerSuccessAction" name="agsoftware_checkout2_observer_frontend_checkout_onepagecontrollersuccessaction_checkout_onepage_controller_success_action"/>
 	</event>
 	<event name="sales_order_payment_save_before">
-		<observer instance="VexSoluciones\Checkout2\Observer\Sales\OrderPaymentSaveBefore" name="vexsoluciones_checkout2_sales_order_payment_save_before"/>
+		<observer instance="AgSoftware\Checkout2\Observer\Sales\OrderPaymentSaveBefore" name="agsoftware_checkout2_sales_order_payment_save_before"/>
 	</event>
 </config>

@@ -11,7 +11,7 @@ define(
         rendererList.push(
             {
                 type: 'checkout2',
-                component: 'VexSoluciones_Checkout2/js/view/payment/method-renderer/checkout2-method'
+                component: 'AgSoftware_Checkout2/js/view/payment/method-renderer/checkout2-method'
             }
         );
         return Component.extend({});

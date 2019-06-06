@@ -1,11 +1,11 @@
 <?php
 
 
-namespace VexSoluciones\Checkout2\Model;
+namespace AgSoftware\Checkout2\Model;
 
-use VexSoluciones\Checkout2\Api\Data\Checkout2Interface;
+use AgSoftware\Checkout2\Api\Data\Checkout2Interface;
 use Magento\Framework\Api\DataObjectHelper;
-use VexSoluciones\Checkout2\Api\Data\Checkout2InterfaceFactory;
+use AgSoftware\Checkout2\Api\Data\Checkout2InterfaceFactory;
 
 class Checkout2 extends \Magento\Framework\Model\AbstractModel
 {
@@ -15,15 +15,15 @@ class Checkout2 extends \Magento\Framework\Model\AbstractModel
     protected $dataObjectHelper;
 
     protected $_code = "checkout2";
-    protected $_eventPrefix = 'vexsoluciones_checkout2';
+    protected $_eventPrefix = 'agsoftware_checkout2';
 
     /**
      * @param \Magento\Framework\Model\Context $context
      * @param \Magento\Framework\Registry $registry
      * @param Checkout2InterfaceFactory $checkout2DataFactory
      * @param DataObjectHelper $dataObjectHelper
-     * @param \VexSoluciones\Checkout2\Model\ResourceModel\Checkout2 $resource
-     * @param \VexSoluciones\Checkout2\Model\ResourceModel\Checkout2\Collection $resourceCollection
+     * @param \AgSoftware\Checkout2\Model\ResourceModel\Checkout2 $resource
+     * @param \AgSoftware\Checkout2\Model\ResourceModel\Checkout2\Collection $resourceCollection
      * @param array $data
      */
     public function __construct(
@@ -31,8 +31,8 @@ class Checkout2 extends \Magento\Framework\Model\AbstractModel
         \Magento\Framework\Registry $registry,
         Checkout2InterfaceFactory $checkout2DataFactory,
         DataObjectHelper $dataObjectHelper,
-        \VexSoluciones\Checkout2\Model\ResourceModel\Checkout2 $resource,
-        \VexSoluciones\Checkout2\Model\ResourceModel\Checkout2\Collection $resourceCollection,
+        \AgSoftware\Checkout2\Model\ResourceModel\Checkout2 $resource,
+        \AgSoftware\Checkout2\Model\ResourceModel\Checkout2\Collection $resourceCollection,
         array $data = []
     ) {
         $this->checkout2DataFactory = $checkout2DataFactory;

@@ -5,7 +5,7 @@
 			<checkout2>
 				<active>1</active>
 				<test>1</test>
-				<model>VexSoluciones\Checkout2\Model\Payment\Checkout2</model>
+				<model>AgSoftware\Checkout2\Model\Payment\Checkout2</model>
 				<title>2Checkout</title>
 				<allowspecific>0</allowspecific>
 				<group>online</group>

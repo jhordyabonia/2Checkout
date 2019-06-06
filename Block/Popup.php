@@ -1,7 +1,7 @@
 <?php
 
 
-namespace VexSoluciones\Checkout2\Block;
+namespace AgSoftware\Checkout2\Block;
 use \Datetime;
 use \Datetimezone;
 

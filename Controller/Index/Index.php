@@ -1,6 +1,6 @@
 <?php
 
-namespace VexSoluciones\Checkout2\Controller\Index;
+namespace AgSoftware\Checkout2\Controller\Index;
 
 use Magento\Framework\App\ResponseInterface;
 use Magento\Framework\App\Action\Context;
@@ -20,7 +20,7 @@ class Index extends \Magento\Framework\App\Action\Action
     public function __construct(
         \Magento\Framework\View\Result\PageFactory $resultPageFactory,
         \Magento\Checkout\Model\Session $checkoutSession,
-        \VexSoluciones\Checkout2\Model\Checkout2 $checkout2,
+        \AgSoftware\Checkout2\Model\Checkout2 $checkout2,
         \Magento\Framework\App\Action\Context $context,
         \Psr\Log\LoggerInterface $logger,
         \Magento\Quote\Api\CartRepositoryInterface $quoteRepository

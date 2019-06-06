@@ -1,6 +1,6 @@
 <?php
 
-namespace VexSoluciones\Checkout2\Controller\Success;
+namespace AgSoftware\Checkout2\Controller\Success;
 
 use Magento\Framework\App\ResponseInterface;
 use Magento\Framework\App\Action\Context;
@@ -18,7 +18,7 @@ class Index extends \Magento\Framework\App\Action\Action
      */
     public function __construct(
         \Magento\Framework\View\Result\PageFactory $resultPageFactory,
-        \VexSoluciones\Checkout2\Model\Checkout2 $checkout2,
+        \AgSoftware\Checkout2\Model\Checkout2 $checkout2,
         \Magento\Sales\Api\Data\OrderInterface $order,
         \Magento\Framework\App\Action\Context $context
     ) {

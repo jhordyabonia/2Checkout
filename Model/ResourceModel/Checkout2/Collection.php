@@ -1,7 +1,7 @@
 <?php
 
 
-namespace VexSoluciones\Checkout2\Model\ResourceModel\Checkout2;
+namespace AgSoftware\Checkout2\Model\ResourceModel\Checkout2;
 
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
@@ -14,8 +14,8 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
     protected function _construct()
     {
         $this->_init(
-            \VexSoluciones\Checkout2\Model\Checkout2::class,
-            \VexSoluciones\Checkout2\Model\ResourceModel\Checkout2::class
+            \AgSoftware\Checkout2\Model\Checkout2::class,
+            \AgSoftware\Checkout2\Model\ResourceModel\Checkout2::class
         );
     }
 }

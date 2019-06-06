@@ -6,8 +6,8 @@
 var config = {
     map: {
         '*': {
-            sweetalert:'VexSoluciones_Checkout2/js/sweetalert.min',
-            popup:'VexSoluciones_Checkout2/js/popup',
+            sweetalert:'AgSoftware_Checkout2/js/sweetalert.min',
+            popup:'AgSoftware_Checkout2/js/popup',
         }
     }
 };

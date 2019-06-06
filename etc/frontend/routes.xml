@@ -4,7 +4,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
         <route id="2checkout" frontName="2checkout">
-            <module name="VexSoluciones_Checkout2"/>
+            <module name="AgSoftware_Checkout2"/>
         </route>
     </router>
 </config>

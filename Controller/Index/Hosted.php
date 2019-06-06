@@ -6,7 +6,7 @@
  */
 
 // @codingStandardsIgnoreFile
-namespace VexSoluciones\Checkout2\Controller\Index;
+namespace AgSoftware\Checkout2\Controller\Index;
 require_once(BP.'/lib/internal/Twocheckout.php');
 use Magento\Framework\App\ResponseInterface;
 use Magento\Framework\App\Action\Context;
@@ -28,7 +28,7 @@ class Hosted extends \Magento\Framework\App\Action\Action
         #\Twocheckout $tco,
         \Magento\Framework\View\Result\PageFactory $resultPageFactory,
         \Magento\Checkout\Model\Session $checkoutSession,
-        \VexSoluciones\Checkout2\Model\Checkout2 $checkout2,
+        \AgSoftware\Checkout2\Model\Checkout2 $checkout2,
         \Magento\Framework\App\Action\Context $context,
         \Psr\Log\LoggerInterface $logger,
         \Magento\Quote\Api\CartRepositoryInterface $quoteRepository       
@@ -81,23 +81,23 @@ class Hosted extends \Magento\Framework\App\Action\Action
                 "currency" => 'USD',
                 "total" => '10.00',
                 "billingAddr" => array(
-                    "name" => 'Vex Soluciones',
+                    "name" => 'Ag Software',
                     "addrLine1" => 'Calle Grimaldo del Solar 162, Oficina 807',
                     "city" => 'Lima',
                     "state" => 'Miraflores',
                     "zipCode" => '07001',
                     "country" => 'PE',
-                    "email" => 'soporte@vexsoluciones.com',
+                    "email" => 'soporte@agsoftware.com',
                     "phoneNumber" => '+51 970771094'
                 ),
                 "shippingAddr" => array(
-                    "name" => 'Vex Soluciones',
+                    "name" => 'Ag Software',
                     "addrLine1" => 'Calle Grimaldo del Solar 162, Oficina 807',
                     "city" => 'Liam',
                     "state" => 'Miraflores',
                     "zipCode" => '07001',
                     "country" => 'PE',
-                    "email" => 'soporte@vexsoluciones.com',
+                    "email" => 'soporte@agsoftware.com',
                     "phoneNumber" => '+51 970771094'
                 )
             ), 'array');

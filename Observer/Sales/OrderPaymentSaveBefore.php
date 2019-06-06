@@ -6,10 +6,10 @@
  */
 
 // @codingStandardsIgnoreFile
-namespace VexSoluciones\Checkout2\Observer\Sales;
+namespace AgSoftware\Checkout2\Observer\Sales;
 
 use Magento\Framework\Event\ObserverInterface;
-use VexSoluciones\Checkout2\Model\Payment\Checkout2;
+use AgSoftware\Checkout2\Model\Payment\Checkout2;
 
 class OrderPaymentSaveBefore implements \Magento\Framework\Event\ObserverInterface
 {

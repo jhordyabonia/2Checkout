@@ -6,7 +6,7 @@ define(
         'use strict';
         return Component.extend({
             defaults: {
-                template: 'VexSoluciones_Checkout2/payment/checkout2'
+                template: 'AgSoftware_Checkout2/payment/checkout2'
             },
             getMailingAddress: function () {
                 return window.checkoutConfig.payment.checkmo.mailingAddress;

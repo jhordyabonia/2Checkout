@@ -1,7 +1,7 @@
 <?php
 
 
-namespace VexSoluciones\Checkout2\Observer\Frontend\Checkout;
+namespace AgSoftware\Checkout2\Observer\Frontend\Checkout;
 
 class OnepageControllerSuccessAction implements \Magento\Framework\Event\ObserverInterface
 {
@@ -24,7 +24,7 @@ class OnepageControllerSuccessAction implements \Magento\Framework\Event\Observe
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
         \Magento\Sales\Api\Data\OrderInterface $order,
         \Magento\Checkout\Model\Session $checkoutSession,
-        \VexSoluciones\Checkout2\Model\Checkout2 $checkout2,
+        \AgSoftware\Checkout2\Model\Checkout2 $checkout2,
         \Magento\Framework\App\ResponseFactory $responseFactory,
         \Magento\Framework\UrlInterface $url,
         \Psr\Log\LoggerInterface $logger

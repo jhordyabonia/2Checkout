@@ -1,7 +1,7 @@
 <?php
 
 
-namespace VexSoluciones\Checkout2\Model\Payment;
+namespace AgSoftware\Checkout2\Model\Payment;
 
 class Checkout2 extends \Magento\Payment\Model\Method\AbstractMethod
 {

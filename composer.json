@@ -1,12 +1,12 @@
 {
-    "name": "vexsoluciones/module-checkout2",
+    "name": "agsoftware/module-checkout2",
     "description": "Pay method",
     "type": "magento2-module",
     "license": "proprietary",
     "authors": [
         {
-            "email": "carreras@vexsoluciones.com",
-            "name": "VexSoluciones"
+            "email": "carreras@agsoftware.com",
+            "name": "AgSoftware"
         },
         {
             "email": "jhordy.abonia@gmail.com",
@@ -20,7 +20,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "VexSoluciones\\Checkout2\\": ""
+            "AgSoftware\\Checkout2\\": ""
         }
     }
 }

@@ -1,9 +1,9 @@
 ### _[Signup free with 2Checkout and start selling!](https://www.2checkout.com/signup)_
 
-### Integrate Magento2 with 2Checkout (VexSoluciones)
+### Integrate Magento2 with 2Checkout (AgSoftware)
 ----------------------------------------
 
-### 2Checkout Payment Module (VexSoluciones) Setup
+### 2Checkout Payment Module (AgSoftware) Setup
 
 #### 2Checkout Settings
 
@@ -16,9 +16,9 @@
 
 #### Magento Settings
 
-1. Download the 2Checkout payment module (VexSoluciones)
+1. Download the 2Checkout payment module (AgSoftware)
 2. Keep it into directory to “app/code/” your Magento root directory.
-3. On your server, install the module by running `php bin/magento module:enable VexSoluciones_Checkout2` and `php bin/magento setup:upgrade` in your magento root directory.
+3. On your server, install the module by running `php bin/magento module:enable AgSoftware_Checkout2` and `php bin/magento setup:upgrade` in your magento root directory.
 3. Sign in to your Magento admin.
 4. Flush your Magento cache under **System**->**Cache Management** and reindex all templates under **System**->**Index Management**.
 5. Navigate to Payment Methods under **Stores**->**Configuration**->**Sales**->**Payment Methods** expand **2Checkout** and make sure that it is enabled.

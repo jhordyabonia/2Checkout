@@ -1,7 +1,7 @@
 <?php
 
 
-namespace VexSoluciones\Checkout2\Api\Data;
+namespace AgSoftware\Checkout2\Api\Data;
 
 interface Checkout2Interface extends \Magento\Framework\Api\ExtensibleDataInterface
 {
@@ -20,7 +20,7 @@ interface Checkout2Interface extends \Magento\Framework\Api\ExtensibleDataInterf
     /**
      * Set checkout2_id
      * @param string $checkout2_id
-     * @return  \VexSoluciones\Checkout2\Api\Data\Checkout2Interface
+     * @return  \AgSoftware\Checkout2\Api\Data\Checkout2Interface
      */
     public function setCheckout2Id($checkout2_id);
 
@@ -33,7 +33,7 @@ interface Checkout2Interface extends \Magento\Framework\Api\ExtensibleDataInterf
     /**
      * Set increment_id
      * @param string $incrementId
-     * @return  \VexSoluciones\Checkout2\Api\Data\Checkout2Interface
+     * @return  \AgSoftware\Checkout2\Api\Data\Checkout2Interface
      */
     public function setIncrementId($incrementId);
 
@@ -46,7 +46,7 @@ interface Checkout2Interface extends \Magento\Framework\Api\ExtensibleDataInterf
     /**
      * Set response
      * @param string $response
-     * @return  \VexSoluciones\Checkout2\Api\Data\Checkout2Interface
+     * @return  \AgSoftware\Checkout2\Api\Data\Checkout2Interface
      */
     public function setResponse($form_data);
 
@@ -59,7 +59,7 @@ interface Checkout2Interface extends \Magento\Framework\Api\ExtensibleDataInterf
     /**
      * Set form_data
      * @param string $form_data
-     * @return  \VexSoluciones\Checkout2\Api\Data\Checkout2Interface
+     * @return  \AgSoftware\Checkout2\Api\Data\Checkout2Interface
      */
     public function setFormData($form_data);
     
