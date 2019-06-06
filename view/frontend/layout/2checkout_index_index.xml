@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	
+	 <head>
+          <css src="VexSoluciones_Checkout2::css/styles.css" />
+    </head>
+
+	<body>
+		<referenceContainer name="content">            
+			<block  class="VexSoluciones\Checkout2\Block\Popup"
+					name="payment.popup" as="payment.popup"
+					before="-" after="logo"
+					template="VexSoluciones_Checkout2::popup.phtml"/>
+		</referenceContainer>	
+	</body>
+</page>

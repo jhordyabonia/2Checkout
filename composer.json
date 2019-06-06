@@ -1,0 +1,26 @@
+{
+    "name": "vexsoluciones/module-checkout2",
+    "description": "Pay method",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "carreras@vexsoluciones.com",
+            "name": "VexSoluciones"
+        },
+        {
+            "email": "jhordy.abonia@gmail.com",
+            "name": "Jhordy Abonia"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "VexSoluciones\\Checkout2\\": ""
+        }
+    }
+}

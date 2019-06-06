@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<payment>
+			<checkout2>
+				<active>1</active>
+				<test>1</test>
+				<model>VexSoluciones\Checkout2\Model\Payment\Checkout2</model>
+				<title>2Checkout</title>
+				<allowspecific>0</allowspecific>
+				<group>online</group>
+			</checkout2>
+		</payment>
+	</default>
+</config>
